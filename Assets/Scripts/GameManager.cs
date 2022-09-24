@@ -185,7 +185,7 @@ public class GameManager : MonoBehaviour
             PathFollower ballPathFollower = ball.GetComponent<PathFollower>();
             ballPathFollower.pathCreator = activePathCreator;
             ballPathFollower.speed = speed;
-            yield return new WaitForSeconds(.5f/speed);
+            yield return new WaitForSeconds(.75f/speed);
         }
     }
 }
